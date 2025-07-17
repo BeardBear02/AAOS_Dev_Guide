@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:repository xmlns:ns2="http://schemas.android.com/repository/android/common/02" xmlns:ns3="http://schemas.android.com/repository/android/common/01" xmlns:ns4="http://schemas.android.com/repository/android/generic/01" xmlns:ns5="http://schemas.android.com/repository/android/generic/02" xmlns:ns6="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:ns7="http://schemas.android.com/sdk/android/repo/addon2/02" xmlns:ns8="http://schemas.android.com/sdk/android/repo/addon2/03" xmlns:ns9="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:ns10="http://schemas.android.com/sdk/android/repo/repository2/02" xmlns:ns11="http://schemas.android.com/sdk/android/repo/repository2/03" xmlns:ns12="http://schemas.android.com/sdk/android/repo/sys-img2/04" xmlns:ns13="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:ns14="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:ns15="http://schemas.android.com/sdk/android/repo/sys-img2/01">
+    <license id="final-sdk-license" type="text">Conditions
+
+THESE TERMS GOVERN YOUR USE OF THE GM SOFTWARE AND ARE LEGALLY BINDING BETWEEN YOU AND GM
+
+Developer Agreement
+
+Last Modified - December 2021 
+
+This Developer Agreement (“Agreement”) is between You (as defined in Section 1.2) and General Motors Holdings LLC and its affiliates (“GM” or “we” or “us”).
+
+Purpose You would like to contribute to the number of software applications available for download to a GM Connected Device (as defined below) and, in doing so, You desire to use the GM Software (as defined below) to develop one or more Applications (as defined below). GM is willing to grant You a limited, non-exclusive license to use the GM Software to develop and test Your Applications under the terms and conditions set forth in this Agreement.
+
+In general, if You develop an Application in accordance with this Agreement and that Application meets GM’s standards as set forth in this Agreement, its, attachments, exhibits, schedules and in any other documentation expressly referred to in this Agreement, You may submit Your Application to GM for GM to consider distributing to GM Connected Devices via the AppShop (as defined below) or otherwise. If approved by GM, Your Application may be, but is not required to be, distributed by or on behalf of GM or through one or more of the following methods: (1) through the AppShop, (2) included in firmware update to a GM Connected Device, (3) as embedded software in a GM Connected Device, including but not limited to, installed on a vehicle for sale, provided during the provision of warranty services and repairs or provided for aftermarket sales; or (4) any similar means of distribution via any medium or channel, whether now known or developed in the future. 
+
+1. Accepting this Agreement; Definitions
+
+1.1 Acceptance By downloading or using the GM Software You signify Your acceptance of and agreement with the terms of this Agreement. When You accept the terms of this Agreement, You accept on behalf of Yourself, and Your company, Your organization, or Your institution as its legally authorized representative. If You do not agree with any term of this Agreement, do not download or use the GM software.
+
+1.2 Definitions This Agreement contains terms that are capitalized, and those terms have the following meanings:
+
+"Agreement" means this Developer Agreement and license for the GM Software, including any and all attachments, exhibits, schedules and other documentation expressly referred to herein and any permitted amendments to any of the foregoing.
+
+"applicable law(s)" means, when used, all laws applicable to the development, delivery and use of Your Application, wherever in the world it is made available for use.
+
+"Application" means a program that You developed, which complies with this Agreement and the Documentation, for use with a GM Connected Device, including all updates, enhancements, fixes, releases and versions of the program.
+
+“AppShop" means a system or means of distributing applications, including through Google Play Store or an online site owned or controlled by GM where GM intends to make Applications available to customers for their GM Connected Devices.
+
+"AppShop Requirements" means all standards, criteria, procedures, including but not limited to GM’s certificate procedure, and requirements as set forth in this Agreement or the Documentation as GM may modify from time to time.
+
+"Authorized Users" means You (if you are acting in Your individual capacity) or Your employees, officers, directors, contractors, staffs, representatives and agents (if You are acting as a representative of Your entity, organization or institution) who need to know or use the GM Software for the development and testing of Applications and who, in the case of contractors, representatives and agents, with whom You have a written and binding agreement that requires, or in the case of employees, to whom You have explained the obligations of, protecting the confidentiality of the GM Software, the Documentation and all other information and documentation that we make available to You.
+
+"Documentation" means any technical documents, specifications, procedures, guidelines or standards, including the GM HMI guidelines and GM Technical Guidelines for GM Infotainment Application Developers, that GM may make available to You in connection with the GM Software, the AppShop or Applications.
+
+“End User” means the person using a GM Connected Device and one or more Applications.
+
+“End User Data” means information about an End User, whether personally identifiable or not, including information about driver behavior, End User characteristics, activities, preferences and interests, and also including information that can be used, together with other information or data, to personally identify an End User. End User Data includes any vehicle ID, GM Connected Device ID, or other device ID or similar identifier, that is or can be associated with an End User or End User activity. End User Data includes Vehicle Data.
+
+"GM API(s)" means the Application Programming Interface(s) that GM specifies in the Documentation and in the GM Software.
+
+“GM Connected Device” means a device produced by GM, for GM, or as authorized by GM that is capable of receiving Applications created using the GM Software.
+
+“GM Link Protocol” means GM’s proprietary protocol for interfacing with a GM Connected Device through an external wired or wireless connection.
+
+“GM Representatives” includes its contractors, suppliers, affiliates, third party service providers and any other person GM appoints to act on its behalf and the employees, officers and directors of the foregoing.
+
+"GM Software" collectively means the SDK software, associated files, applications, sample code, simulator, emulator, tools, libraries, APIs, data (including End User Data and Vehicle Data), files, and materials and documentation, together with any and all pre-release versions, corrections, improvements, updates and releases to any of the foregoing that GM makes available or discloses to You. 
+
+“SDK” means the GM software developer’s kit provided by GM to develop an Application for use with a GM Connected Device.
+
+“Mobile Marketing Association's Privacy Policy Framework” means the latest version and any continuing updates, of the Mobile Marketing Association’s Privacy Policy Framework as developed by the Mobile Marketing Association.
+
+“Open Source License” means a software license that includes, but is not limited to, terms that: (a) permit distribution/redistribution of the software by others without royalty or fee; (b) allows for such distribution/redistribution to include source code and compiled code; (c) permits modifications, compilations, and derived works be created from the software and be distributed under the same terms as the original software; or (d) attach to the software and applies to all persons, entities, groups, organizations and institutions (the “Recipients”) to whom the software is distributed or who redistribute the software without the need for the Recipients to execute or otherwise acquire an additional license.
+
+"Open Source Software" means software, including source code and compiled code, made available to others under the terms of an Open Source License. Open Source Software may include Android system files, packaged APIs, and library files provided by Google under the Android Open Source Project, located at: source.android.com.
+
+“Standard End User License” means the standard end user license agreement for customers, a copy of which (for the U.S.) included as Exhibit A to this Agreement.
+
+“Term” has the meaning set forth in Section 14 of this Agreement.
+
+"You" is sometimes referred to as “Your” and “Licensee” in this Agreement and refers to you individually or the entity, organization or institution who You acted on behalf of in entering this Agreement.
+
+“Vehicle Data” means information about the vehicle, including its operation, performance, settings, location and servicing, and information about the type of vehicle.
+
+2. Use and Restrictions on GM Software and Documentation
+
+2.1 License Subject to the terms and conditions of this Agreement, GM hereby grants You during the Term of this Agreement, for the limited purpose of meeting AppShop Requirements, a nonexclusive, limited, revocable, non-sublicensable, non-transferable and royalty-free license to do the following with GM Software and Documentation:
+
+(i) have access to, install, use, and operate the GM Software on a limited number of computers owned and controlled by You as appropriate for Authorized Users to use solely in Your internal development and testing of Applications to meet the AppShop Requirements for use exclusively on GM Connected Devices;
+
+(ii) make a limited number of copies of the Documentation for distribution solely to Your Authorized Users to use solely in Your internal development and testing of Applications meeting the AppShop Requirements; and
+
+(iii) to use and incorporate elements of the GM Software into the Application pursuant to the Documentation and to distribute such elements as incorporated into the Application, as necessary and intended by GM to provide for operation of the Application on GM Connected Devices.
+
+To the extent that Open Source Software files are included in the GM Software, Your rights in those files and the Open Source Software are specified in the documentation provided with those files or as GM makes available to You. You acknowledge that You may be required to separately consent to additional terms in the documentation provided with Open Source Software files and other third party software and that Your use of those files may be conditioned upon compliance with those additional terms. There are no implied rights granted to You in this Agreement.
+
+2.2 Pre-Release GM Software
+
+GM may provide You GM Software in pre-release form for Your review, evaluation and so You can provide feedback to GM (“Pre-release Software”). You agree not to rely on Pre-release Software for final release of Applications to GM. Since Pre-release Software may include functionality that GM has not yet released or decided to release, You agree not to discuss the capabilities of the Pre-release Software or the functionalities of Applications developed with Prerelease Software. 
+
+You also acknowledge that Pre-release Software may not be bug-free and may result in loss of data that is not backed-up and may require additional maintenance to Your systems.
+
+2.3 Notices Kept on Copies
+
+On each copy of GM Software and Documentation used under this Agreement, You agree to keep any copyright notice, disclaimer of warranty, notices that refer to this Agreement, and any other provided notices in their full and original form without any modifications or additions.
+
+2.4 Ownership of GM Software and Documentation
+
+(a) GM Software and Documentation. GM or its licensors retain(s) all rights, title, and interest, including all intellectual property and proprietary rights, in and to the GM Software and Documentation that GM may make available to You under this Agreement. You agree that the GM Software and Documentation is only licensed and not sold to You. You agree not to make any claim of ownership or interest in the GM Software or Documentation and to notify GM if anyone makes such a claim to You or You become aware of a claim of ownership or interest in the GM Software or Documentation.
+
+(b) Open Source Software. To the extent that Open Source Software files are included in the GM Software, ownership rights in such Open Source Software are specified in such files and the documentation provided with those files.
+
+(c) Application. Nothing in this Agreement transfers ownership of any right, title or interest, including any intellectual property or other proprietary rights, from You (or your licensors) to GM in Your Application.
+
+2.5 Restrictions on Use of GM Software and Documentation
+
+As a condition of the license and rights granted in this Agreement, including Section 2.1, you agree to each of the following:
+
+(a) You agree to use the GM Software and Documentation only for the purposes expressly set forth in this Agreement.
+
+(b) You will not copy, distribute or modify any of the GM Software or Documentation, except as expressly set forth in Section 2.1.
+
+(c) You agree not to make any derivatives of the GM Software and that, except as expressly provided with respect to certain Open Source Software files, a source code version of the GM Software is not licensed hereunder and shall not be provided to You.
+
+(d) Your rights under this Agreement are restricted solely to You and may not be assigned, sublicensed, sold, disposed of, encumbered, or mortgaged.
+
+(e) You agree to abide by and will not circumvent any security means or access control technology included with the GM Software and Documentation.
+
+(f) You also agree that You shall not reverse engineer, disassemble or decompile any of the GM Software or take any action to obtain the source code of the GM Software. (g) You agree not to rent, lease, re-sell, lend, upload to or host on any website or server,
+
+sell, redistribute, or sublicense the GM Software or Documentation, in whole or in part, or to enable others to do so.
+
+(h) You may not use the GM Software or the Documentation for any purpose not expressly permitted by this Agreement.
+
+(i) You will not use the GM Software or Documentation to trespass upon, misappropriate, gain unauthorized access to, or engage in any similar activity with respect to, any computer or system of GM or any other person or entity.
+
+(j) You will not use the GM Software or Documentation to disable, defeat the security of, interfere with the security of, remove the digital signature of, or disable the digital rights management, verification or authentication systems of any computer or system of GM or any other person or entity.
+
+(k) You will only use the GM Software and Documentation in accordance with all applicable laws and regulations. You will not use the GM Software or Documentation for any unlawful or illegal activity, nor to develop any Application which would commit or facilitate the commission of a crime, or other tortious, unlawful or illegal act.
+
+(l) You will not use the GM, GMC, or General Motors name, any GM trademark, logo or brand or any variation, translation or transliteration thereof in any manner, whether or alone or with any additional wording or design, not expressly authorized by GM in writing.
+
+2.6 Updates; No GM Support or Maintenance of GM Software
+
+GM may update, modify, extend, enhance, re-release and improve the GM Software and Documentation from time to time at GM’s sole discretion. GM is not obligated to provide You with the GM Software and Documentation or any of the updates, modifications, extensions, enhancements, re-releases and improvements to the GM Software or Documentation. You agree that GM is not obligated to provide any maintenance or support, technical or otherwise, to
+
+You or any End User under this Agreement or any other form of obligation. You agree that this Agreement shall govern any of the updates, modifications, extensions, enhancements, rereleases and improvements to the GM Software and Documentation that GM may make available to You.
+
+2.7 AppShop, GM Software and Documentation Availability.
+
+You agree that GM may discontinue owning or operating the AppShop or providing the GM Software and Documentation at any time without any notice or liability to you.
+
+3. Your Representations and Obligations
+
+3.1 General You certify to GM and agree that:
+
+(a) You have the right and authority to enter into this Agreement on Your own behalf and, if applicable, on behalf of Your company, organization or institution and that You have the right and authority to legally bind Your company, organization or institution to the terms and obligations of this Agreement;
+
+(b) You are at least 18 years of age (or the age of full legal capacity in your location);
+
+(c) You will provide GM only with true, complete and accurate information and will keep that information up to date;
+
+(d) You will monitor Your use of the GM Software and Documentation and keep Yourself and Your Authorized Users in full compliance with the requirements of this Agreement;
+
+(e) You will be responsible for all of Your costs and expenses, including losses and liabilities, that You incur in connection with any of Your use of the GM Software and Documentation, any Application and any activities that You undertake to develop any Application in connection with this Agreement in any way;
+
+(f) You agree that You own the necessary rights or have authority to grant the rights that You provide to GM under this Agreement;
+
+(g) Your agreement to these terms does not in any way violate any of Your existing obligations;
+
+(h) Your Application will operate and perform the functionality in the manner as you describe to GM and your disclosure to GM will include all functionality of Your Application. Any documentation distributed with or in Your Application and any advertisements or marketing You offer for Your Application shall accurately describe the operation and functionality and shall not make any false or misleading statements in that regard, and shall otherwise comply with the AppShop Requirements and Documentation.
+
+(i) You will only request the End User Data from GM that You require to develop and test Your Applications to meet the AppShop Requirements, and GM may provide the End User Data and Vehicle Data in its sole discretion;
+
+(j) Your Application and all information and any other content provided or used with or through Your Application, whether provided directly or indirectly to GM or to any GM Connected Device, do not and will not, under all applicable laws, violate, misappropriate, or infringe any GM or third party copyrights, trademarks, rights of privacy and publicity, trade secrets, patents, or other proprietary or legal rights (e.g. musical composition or performance rights, video rights, photography or image rights, logo rights, third party data rights, etc., for content and materials that may be included in Your Application);
+
+(k) As to Your Application and any and all associated Application commands and code, You and not GM or GM Representatives are the “Information Content Provider” for the Application, its Codes and Commands.
+
+(l) GM has adopted and implemented a policy in accordance with the Digital Millennium Copyright Act, 17 USC 512 and similar laws in other jurisdictions, and such policy is available at the AppShop or on the GM website and You will cooperate with GM in implementing its policy, as requested.
+
+4. Requirements for Your Applications
+
+You agree that if You choose to submit any Application(s) for distribution by GM, Your Applications will meet all of GM’s AppShop Requirements, including, but not limited to, the following:
+
+4.1 Your Applications must use only GM’s designated APIs set forth in the Documentation that we make available to You and only in the manner specified in the Documentation. Your Application must not call within the GM Connected Device (a) any private APIs, or (b) any other APIs not included and authorized in the Documentation that we make available to You. Your Application also must not install or attempt to install any code that includes additional APIs that may be called within the GM Connected Device.
+
+4.2 Your Applications must comply with GM’s HMI (Human Machine Interface) standards provided in the Documentation.
+
+4.3 You agree that You and Your Application will comply at all times with the AppShop Requirements and all applicable local, state and federal laws and any governmental rules or regulations in the places where End Users of Your Application are ordinarily resident.
+
+4.4 End User Data Usage and Privacy
+
+(a) Your Applications must include a privacy statement that:
+
+i. complies with all applicable laws, regulations, and industry standards in the place where End Users of Your Application are ordinarily resident, including, but not limited to, the Mobile Marketing Association’s Privacy Policy Framework, App Privacy Guidelines as issued by the Future of Privacy Forum and the Center for Democracy and Technology; or similar industry standards now or subsequently developed, including any final multi-stakeholder guidance resulting from the NTIA app multi-stakeholder process;
+
+ii. clearly and completely describes the type of End User Data collected by the Application (whether provided directly by End Users or collected Automatically) and how and for what purposes that data will be used and, if applicable, shared, and with whom;
+
+iii. clearly describes where the End User Data will be geographically stored (e.g. United States, European Union, Canada, Other);
+
+iv. clearly and completely describes any controls that End Users have over the use and sharing of End User Data;
+
+v. is conspicuously disclosed to the End User prior to the deployment of Your Application’s functionality (i.e., prior to download or activation);
+
+vi. forms part of a mechanism for getting express opt-in consent from the End User to Your use of End User Data;
+
+vii. is accessible from within Your Application; and
+
+viii. describes how an End User can find or request or obtain a hard copy or printable electronic version of the privacy statement through a website or other means. Any retroactive (i.e., applicable to End User Data previously collected under a privacy statement), material changes to privacy practices must be added to an amended privacy statement, must be separately communicated to End Users independent of the privacy statement, and You must obtain, separate from other disclosures, End Users’ express, opt-in permission prior to the privacy statement changes being effective.
+
+(b) Your Applications will not collect or transmit any form of End User Data except as directly relevant to the End User’s use of the Application, to serve advertising, or as otherwise specifically allowed in the Documentation.
+
+(c) You also agree that You and Your Application will, consistent with Section 4.3, comply at all times with the AppShop Requirements and all applicable local, state and federal laws and any governmental rules or regulations applicable in the place Your End Users are ordinarily resident, including those specifically relevant to privacy, collection of location data and to the installation of a computer program on another person’s computer, the altering of transmission data, and the sending of electronic messages. This compliance includes, but is not limited to:
+
+(i) You or Your Application collecting, accessing, transmitting, sharing, or processing of any data, including, but not limited to End User Data and location data, device features such as a phone or camera, or other End User communications or content;
+
+(ii) You or Your Application causing any computer program to be installed or updated or to send any electronic message; or
+
+(iii) You or Your Application causing the transmission of any data in an electronic message to be altered.
+
+(d) Your Application will not collect, transmit, use or share End User Data, including any disclosure of such data to GM or GM Representatives, without prior consent that is solicited and obtained in compliance with all applicable laws, regulations, and industry standards applicable in the place Your End Users are ordinarily resident.
+
+(e) If Your Application provides any type of location-based route or guidance function or otherwise collects geo-location data, Your Application will:
+
+(i) before providing the service or function, alert End Users, separate from the privacy statement and independent of other disclosures, that location data will be collected and obtain End Users clear, express opt-in permission prior to collection; and
+
+(ii) include a conspicuous and contemporaneous visual indicator that geolocation tracking is enabled.
+
+(f) If Your Application provides any (i) geo-tagging; (ii) auto-sharing with third party platforms other than GM (also known as frictionless sharing); or (iii) collects any End User content from the GM Connected Device or Vehicle such as contacts, photos, videos or messages; Your Application will, before providing such service or function, clearly alert End Users, separate from the privacy statement and independent of other disclosures, of the specific activity and content that will be collected and obtain End Users’ clear, express opt-in permission prior to such collection and sharing.
+
+(g) If consent is not obtained from an End User for any activity addressed in (d) – (f) above, then Your Application must not commence End User Data collection, transmission, use or sharing functions and if consent previously obtained is revoked by an End User, Your Application must disable the service or immediately terminate End User Data collection, transmission, use or sharing functions.
+
+(h) You will retain any End User Data You receive from GM only for so long as You reasonably require it for the purpose of developing and testing of Your Applications to meet the AppShop Requirements, but in any event, no longer than as permitted in accordance with applicable laws, regulations, and industry standards. Additionally, You will delete all End User Data You receive from GM if the End User or GM asks you to do so. You will provide an easily accessible mechanism for End Users to make such a request. GM may require You to delete End User Data You receive from GM if You violate any provision of this Agreement or otherwise within its sole discretion. If Your Application is not submitted to or accepted by GM, or if GM removes Your Application from the AppShop, You must delete all End User Data You have received from GM unless You have received explicit consent from the End User to retain their End User Data.
+
+4.5 Your Application will not link to or access (or cause a link or access to) any service or website in a manner that will violate the terms and conditions of that service or website. You agree that if Your Application links to or accesses any service or website, You will abide by, and Your Application will comply with, the terms and conditions of that service or website.
+
+4.6 If Your Application provides any type of location-based route or guidance function, Your Application will, each time before providing the service or function, provide a notice as follows: CAUTION: LOCATION DATA MAY NOT BE ACCURATE, USE THIS APPLICATION AT YOUR OWN SOLE RISK.
+
+4.7 Your Application must not use resources of the GM Connected Device in a manner that would interfere with (a) the operation of the GM Connected Device or (b) any system alerts, warnings, displays or other functions, including those provided by GM, the GM Connected Device, vehicle or vehicle component.
+
+4.8 Your Application will only include, use, be derived from or based on, link to or provide media content (e.g., video, photographs, artwork, audio-visual materials, social media content, maps) or other information and materials (e.g., news reports, sports scores, financial data, ratings and reviews) if You: (a) have complete and sole ownership thereof with unrestricted rights, or (b) have permission or rights pursuant to a written agreement to reproduce, create derivative works, display, perform and distribute the media content, information or materials, as applicable, and to allow others (through multiple tiers of sublicensing) to reproduce, display, perform and distribute the content as included in Your Application to End Users for installation and use by End Users without any payment of any fees, royalties or any other form of monies by GM or End Users. This Section does not extend to third party software, which is covered by Sections 4.10 and 4.11.
+
+4.9 Your Application must not contain, link to, access, provide or download any obscene or pornographic material or any material that is defamatory. The following applies to all Applications except in the provision of news services: Your Application must not contain, link to, access, provide or download any offensive or defamatory content or materials of any kind or any content or materials that may harm GM (including but not limited to GM and each of GM’s affiliate’s name, reputation or good standing in the community) or that End Users may find objectionable.
+
+4.10 Your Application will only include, use, be derived from or based on, link to or provide access to third party software that You have permission or rights pursuant to a written agreement to use, make, have made, reproduce, modify, distribute, display, and perform and to allow others to exercise such rights through multiple tiers of sublicensing without any payment of any fees, royalties or any other form of monies by GM or End Users. In relation to Your Application(s), it is You, and not GM, that is the distributor of the Application. You will be responsible for compliance with any direct and indirect obligations, including obligations related to distribution, manufacture, use, reproduction, modification, display, performance, sublicensing, or transfer associated in any way with any Open Source Software or third party software, that is used with or forms any part of Your Application. Your obligations include, but are not limited to, compliance with all applicable licenses, copyrights, and any other legal obligations associated with the Open Source Software or third party software that is used with or included in Your Application and with the distribution manufacture, use, reproduction, modification, display, performance, sublicensing, transfer or sale of Your Application and products containing Your Application.
+
+4.11 Your Application must not include, use, be derived from or based on, access or link to any Open Source Software or third party software that would require distribution or disclosure of any GM Software, other than those components provided by GM to You as Open Source Software, or distribution or disclosure of any Documentation, APIs, or any other proprietary information of GM or any other party.
+
+4.12 You will obtain and maintain all necessary rights, clearances, consents, and licenses and pay all use, redistribution and reuse fees associated with Your Application, including, using, providing or linking to any third party content, information, materials or software through Your Application. You expressly acknowledge that the foregoing includes an obligation to obtain and maintain rights, clearances, consents, and licenses for, and pay all license, use, redistribution and reuse fees applicable in any place where an End User of Your Application is ordinarily resident.
+
+4.13 Your Application must not include any superfluous software, including but not limited to any superfluous Open Source Software, that is not necessary for the Application to perform its intended function.
+
+4.14 Your Application must not include any form of Open Source Software or third party software for which payment by GM or any End User is required for the distribution or use. Your Application must not use any software or content, including but not limited to any Open Source Software having an Open Source License, which imposes obligations that contradict in any way the terms of this Agreement or the AppShop Requirements.
+
+4.15 If Your Application interfaces the GM Connected Device with any other device, You will use only the GM Link Protocol and You and the use and operation of Your Application will at all times abide by all of GM’s policies and procedures related to the GM Link Protocol.
+
+4.16 Your Application must not implement voice over IP functionality.
+
+4.17 Your Application must not use excessive cellular network data or exceed cellular network data expectations of GM or the user.
+
+4.18 Your Application must post a high data usage warning and obtain user consent before streaming media or any other content that may lead to excess data charges for a user.
+
+4.19 You may not push any information or functionality to Your Application. Streaming audio for a program requested by a user and advertisements that meet the AppShop Requirements are not considered pushed information or functionality under this Section.
+
+4.20 Your agreement to these terms does not obligate GM to provide or offer to You any service or other agreement, even if GM offers that agreement or service to others or in other locations.
+
+4.21 You understand and agree that GM provides its business through its employees, contractors, suppliers, affiliates, and third party service providers and that none of GM's employees, suppliers, affiliates and third party service providers have any liability to You arising out of this Agreement.
+
+4.22 You understand and agree that GM has the right to change the AppShop, the AppShop Requirements, procedures, this Agreement, any standards and policies relating to any of the foregoing, and any services that GM provides at any time without any notice or liability to You.
+
+4.23 You understand and agree that GM has the right to remove Your Application from the AppShop at any time without any notice or liability to You. You also understand that GM has the right to remove Your Application, advise users to remove Your Application, and to advise any service provider to remove Your Application from any GM Connected Device at any time without any notice or liability to You. While GM may remove any Application in its sole discretion without a specified reason, the following is a list of examples why GM might take one of these actions:
+
+(a) Your Application does not meet the AppShop Requirements;
+
+(b) Your Application does not function properly;
+
+(c) You failed to meet any of Your representations or obligations under this Agreement;
+
+(d) Your Application has a virus or bug;
+
+(e) Your Application disrupts operation of a GM Connected Device or any other device
+
+or system;
+
+(f) repairs or replacement is needed of a GM Connected Device;
+
+(g) regulation, law or order of a court;
+
+(h) this Agreement is terminated;
+
+(i) the digital certificate on Your Application expires; or
+
+(j) Your Application accesses a system, computer, or application program interface without authorization.
+
+4.24 The AppShop may allow users to comment on and rate Applications. You agree to not attempt to manipulate ratings for Your Application or any other Application, and You may not rate Your own Application. You may contact GM if You have any questions or concerns regarding these ratings
+
+4.25 If You discover that Your Application violates the terms of this Agreement, You must immediately notify GM and, without limiting any other rights or remedies of GM, cooperate with GM as requested to address such violation.
+
+4.26. Application Data Security.
+
+(a) Your Application must not contain any hidden files, any automatically replicating, transmitting or activating computer program, any virus, Trojan horse, worm (or other malicious computer program), or any program that limits normal operation of the GM Connected Device or any other GM system or other software or services provided through the GM Connected Device or any other GM system.
+
+(b) Your Application will implement state of the art security to prevent unauthorized access or use by others of the Application and to prevent unauthorized access to or use of any system, network, data or other information and materials
+
+5. AppShop Requirements Review
+
+5.1 When You believe that Your Application is complete and ready for distribution, You may submit Your Application to GM in object code and source code formats.
+
+5.2 You will not submit for distribution any Application that is a beta, demo, trial or test version of Your Application.
+
+5.3 You represent and warrant that Your Application, upon submission to GM, will comply with this Agreement, the AppShop Requirements, and the Documentation. You also represent and warrant that Your Application does not generate any error when executed in the emulator included in the SDK.
+
+5.4 You grant to GM and GM Representatives the right to perform any and all review and testing of Your Application on an ongoing basis as GM sees fit for compliance with the AppShop Requirements (including data security testing for security vulnerabilities), including the right to copy, use, display, and modify the source code and object code of Your Application and any media, software and other materials within, linked to, used with or downloaded to or through Your Application.
+
+5.5 When You submit Your Application to GM, You will describe all functionality of Your Application and will not hide any functionality of Your Application from GM. You will describe all connections that Your Application makes and all locations to which Your Application connects.
+
+5.6 If Your Application connects to any other device, You will also provide to GM one example of each type of device to which Your Application connects and describe all types of connections to each of the devices.
+
+5.7 Prior to the release of Your Application through the AppShop, If GM requests any changes to Your Application, its functionality, or content within or available through Your Application, You will make those changes and re-submit Your Application to GM as requested by GM.
+
+5.8 You agree that all updates, fixes, upgrades, enhancements, modifications and extensions of Your Application must be submitted to GM in the same manner as a new Application and in full accordance with the AppShop Requirements and is subject to GM’s review. GM does not guarantee that it will distribute any updates, fixes, upgrades, enhancements, modifications or extensions of Your Application that You submit to GM.
+
+5.9 If Your Application is released through the AppShop, and GM requests any changes to Your Application, its functionality, or content within or available through Your Application, You will make those changes and re-submit Your Application to GM.
+
+5.10 GM may in its sole discretion accept or reject Your Application for any or no reason and without any notification or liability to You.
+
+5.11 GM may in its sole discretion accept Your Application for distribution by you through any one or more of the following:
+
+(a) the AppShop;
+
+(b) firmware update to a GM Connected Device;
+
+(c) as embedded software in a GM Connected Device, including but not limited to, installed on a vehicle for sale, provided during the provision of warranty services and repairs or provided for aftermarket sales; or
+
+(d) any similar means of distribution via any medium or channel whether now known or developed in the future. You agree that if GM determines that Your Application is to be distributed, GM will use its sole discretion to determine the manner of distribution by you of Your Application.
+
+5.12 You understand that Your Application will be distributed in any manner described in this Agreement with a digital certificate meeting GM’s standards as GM determines from time to time and You grant GM and GM Representatives the right to take all action with regard to Your Application to implement the digital certificate and any of GM’s distribution methods.
+
+5.13 You understand and You give GM and GM Representatives the express permission to use Your name, trademark, logo and brand to identify and market Your Application worldwide in connection with the distribution and marketing of Your Application, including on any website for the AppShop. No other rights to your trademark, logo or brand are transferred to GM under this Agreement.
+
+5.14 Your expressly acknowledge that You are not relying on GM in any way arising out of the review conducted pursuant to this Section 5 (or otherwise). You acknowledge that Your compliance with this Agreement, the AppShop Requirements, and the Documentation and all applicable laws is entirely Your responsibility.
+
+6. Delivery of Application and Licenses to GM
+
+6.1 If GM clears Your Application for distribution, You appoint GM and GM Representatives as Your agent to distribute Your Application and to take all actions necessary with regard to Your Application to distribute Your Application in any and all of the manners described in this Agreement and according to the terms of this Agreement and the AppShop Requirements. If distribution of Your Application is not free of charge, You and GM will work together to resolve the terms associated with any such charges, including revenue sharing, payment terms, and other related terms.
+
+6.2 If GM clears Your Application for distribution, You hereby grant to GM and GM Representatives an irrevocable, non-exclusive, royalty-free, transferable right and license worldwide to use Your Application in source code and object code and to distribute your Application in object code as set forth in Section 5.11; this use includes the right to make, have made, host, copy, modify, create derivative works, improve, expand, update, make, display, perform and sublicense in any form or medium, whether now known or hereafter developed, Your Application in order to make it available to End Users using the branding provided by you or otherwise resolved in consultation with you. Other than any revenue sharing that is separately agreed by GM and You, GM will not be responsible for making any payment to you for the activities licensed in this Section.
+
+6.3 You acknowledge and agree that the foregoing rights and licenses extend to any third party media contact, information materials or third party software that Your Application include, use, are derived from or based on, link to or provide access to.
+
+7. No Other Distribution by You Except for distribution via GM as contemplated by this Agreement, You agree not to, and not to permit or enable others to, distribute or otherwise provide to any third parties any version of Your Application (or any other software) that You develop using the GM Software. This restriction will not apply to any version of Your Application (or any other software) that is not created, developed, modified or adapted using the GM Software.
+
+8. Application Maintenance and Support
+
+8.1 You shall be solely responsible to provide any and all documentation, user manuals or guides and all customer support for Your Application.
+
+8.2 You agree and acknowledge that it is Your responsibility to ensure that Your Application including any installation of it, or any upgrades or updates, on any GM Connected Device, complies will all laws in any country in or from which it may be used, installed, upgraded, or updated. GM’s standard end user terms (the “GM Terms”) will apply to your relationship with End Users and create a contractual relationship between You and each End User of Your Application. The GM Terms are, subject to local legal requirements, consistent with the Standard End User License. If you, in your sole discretion, require additional terms to apply to End Users of your Application, then You may submit such additional terms for presentation to such End Users (“Your Additional Terms”). You will ensure that Your Additional Terms comply with the Documentation, comply with all applicable laws in all countries where the corresponding Application can be downloaded, installed, updated, or upgraded, are consistent with the GM Terms, and are consistent with the terms of this Agreement. If Your Additional Terms conflict with the GM Terms, then the GM Terms will govern. Without limiting the foregoing, the Application must describe the function and purpose of the Application, set out a valid mailing and email address for You, and obtain whatever consent may be required to allow for the installation of the Application on the GM Connected Device. You must also solicit and obtain whatever additional consent may be required to allow for the upgrade or update of the Application on the GM Connected Device. You must provide a resource to allow for the end user to print a copy of Your Additional Terms, if any. You appoint GM as Your agent to present the GM Terms and Your Additional Terms on behalf of You to the end user. Although GM facilitates Your licensing of the Application to the End User, GM has no responsibilities to You or the End User in relation to Your Application, except as otherwise expressly provided under this Agreement. Any end user license agreement for Your Application (including the GM Terms and Your Additional Terms) is binding solely between You and the End User.
+
+8.3 You agree that GM and its subsidiaries are third party beneficiaries of any end user license agreement for Your Application and thus GM can enforce the end user license agreement against an End User of Your Application, provided that if the doctrine of third-party beneficiaries is found to not apply for any reason, the parties acknowledge and agree that while GM is not a party to the end user license agreement and has no obligations under the end user license agreement, You will be a trustee of GM for the limited purpose of holding in trust for GM the covenants in favor of GM. Accordingly, GM will be able to enforce such rights and promises in its own right (without being required to add You as a party to any proceedings for such enforcement).
+
+9. Fees
+
+9.1 GM will notify You through GM’s website in advance of execution, or if already executed, in advance of each calendar year, of any fees due by You in connection with exercising any of the rights or receiving any of the benefits provided to You under this Agreement. You agree to pay all fees due (if any) prior to submitting any Application to GM or within 30 days of the beginning of each calendar year, whichever is sooner.
+
+10. Confidentiality and Security Breach Reporting
+
+10.1 You agree to protect all Documentation and GM Software against unauthorized use, disclosure, publication or dissemination and, in doing so, exercise in no event less than a reasonable degree of care. Without limiting the foregoing, You agree to ensure the confidentiality of End User Data received from GM, GM Representatives or End Users via reasonable information security controls, such as encryption or similar means, or such other security controls as prescribed by applicable law.
+
+10.2 Except as expressly authorized in this Agreement, You shall not use for Your own benefit or the benefit of any third party, or disclose, publish, release, transfer or otherwise provide access to or make available to any third party, any Documentation or GM Software, or End User Data or Vehicle Data provided by GM or any GM Representative, without GM’s prior written consent. You shall be responsible for any violation of the confidentiality obligations set forth herein by any party or person who receives the Documentation or GM Software from or through You.
+
+10.3 Any information that GM makes available to the public without restriction or that is provided under the terms of a separate license as part of any Open Source Software that GM provides to You need not be treated as confidential under this Agreement.
+
+10.4 As to (i) Documentation, GM Software, and End User Data that You receive from GM or (ii) where there may be an effect on a GM Connected Device, upon the occurrence of a security breach or suspected security breach, meaning actual or suspected unauthorized access to or effect upon the GM Connected Device or unauthorized use, disclosure, acquisition, or loss of any such information or material, You shall notify GM immediately, but in no event more than 24 hours, following Your learning of the incident, with full disclosure regarding all relevant known information. You shall update GM on an ongoing basis and cooperate fully with any related GM investigation, requests for information, or End User or other notices that GM may require of You. Because in such circumstances, time is of the essence, such notice shall occur as specified in the Documentation and not Section 16.5
+
+11. Your Feedback and Submissions
+
+11.1 GM is interested in receiving Your feedback regarding the GM Software, Documentation and AppShop and needs to review certain information from You as we describe in this Agreement and in the AppShop Requirements (“Submissions”). You grant to GM and GM Representatives an irrevocable, non-exclusive, transferable, royalty-free right and license worldwide to use Your Submissions; this use includes the right to copy, modify, create derivative works, improve, expand, update, make, distribute, display, perform and sublicense in connection with any GM Software, the AppShop and Documentation in any manner any in any form or medium, whether now known or hereafter developed, without any notification, payment or attribution to You. For the avoidance of doubt, Submissions do not include Your Applications.
+
+11.2 Because many applications and potential applications may be similar to Your Applications and potential Applications, much of the information that we receive from You and others may be similar. Because of this, and to avoid any misunderstandings, You agree that Your submission to GM or any GM Representative of information and materials under this Agreement or in any way connected to the GM Software, Documentation or AppShop, including the Application and Submissions, creates no confidentiality obligation on the part of GM or any GM Representative in any way and You acknowledge that GM does not consider such information or materials confidential. Your information and material is being delivered voluntarily and without restriction, and GM is free to use and disclose any information and material that You provide in connection with this Agreement without any obligation, express or implied, to You. You also agree that GM has no obligation to return or destroy any information or materials that You provide to GM. Thus, You should retain a copy of any information or materials You submit to GM or any GM Representative.
+
+12. No Restrictions Against Similar Applications You acknowledge that GM retains full right to acquire, and has no restrictions under this agreement against acquiring in any way or developing, alone or with others, any new or future service or application regardless of whether it is similar to or in any way the same as Your Application.
+
+13. Indemnity You agree to indemnify GM and GM Representatives from and against any and all losses, damages, injuries (including death), causes of action, claims, penalties, interest, additional taxes, demands and expenses, including reasonable legal fees and expenses, of any kind or nature arising out or on account of, or resulting from, any claim or allegation of a third party or investigation by any Government entity: (i) arising out of failure to comply with this Agreement by You or Authorized Users; (ii) that Your Application, any activities by You or Authorized Users in connection with this Agreement, or any information or materials provided by or through You, Authorized Users or Your Application infringe upon or misappropriate the intellectual property or other proprietary rights of any third party; (iii) relating to any of Your duties or obligations to any of Your employees, contractors or agents (in all cases direct or indirect), through any agreement or otherwise; (iv) relating to the inaccuracy or untruthfulness of any representation or warranty that You made under this Agreement; (v) relating to any liability of GM or any GM Representative arising out of Your failure to comply with any relevant privacy, data protection, laws governing collection of location data, or similar legislation, regulation or any other law in any jurisdiction where Your Application may be used or accessed; (vi) relating to any action of You or anyone on Your behalf; (vii) relating to the operation or performance of Your Application, whether as You intended it or due to bug or other error; (viii) relating to Your failure to implement best practices in physical or data security controls; or (ix) relating to Your introduction of viruses into the AppShop or any computer network or data security breaches caused by You or Your Application. You shall also pay or reimburse GM, at its discretion, for any and all costs relating to a security breach, including forensic investigation costs, attorneys fees, notices to End Users or others, credit monitoring service costs for End Users, and any other related costs even absent a third party claim or allegation or Government entity investigation.
+
+14. Term and Termination
+
+14.1 This Agreement shall extend from the date of Your acceptance until terminated by You or GM in accordance with the terms of this Agreement (the “Term”).
+
+14.2 GM may terminate this Agreement immediately if You: (i) breach any obligation of this Agreement or fail to comply with the AppShop Requirements; (ii) if any person or party acting by, through, for or in concert with You takes any action inconsistent with this Agreement or the AppShop Requirements; (iii) You file any lawsuit against GM; (iv) You engage in, encourage, or participate in any unlawful, deceitful or fraudulent conduct; (v) You become insolvent or file for bankruptcy or become subject to any similar proceeding; (vi) You fail to agree with new AppShop Requirements or modifications to this Agreement as we may make available to You.
+
+14.3 Either Party may terminate this Agreement at any time upon thirty (30) days written notice to the other Party.
+
+14.4 GM shall have no liability to You for termination of this Agreement. Upon termination, You shall stop using all GM Software, Documentation, End User Data provided by GM and Vehicle Data and return or destroy all copies of the GM Software, Documentation, End User Data provided by GM and Vehicle Data in Your possession (or the possession of any Authorized Users) or provided to any person by You (or any Authorized Users). You will provide a written certification of the destruction at GM’s request. Notwithstanding the foregoing, You must maintain all information and records (if any) that the AppShop Requirements identify that You maintain for the period (if any) set forth in the AppShop Requirements.
+
+14.5 All of Your obligations related in any way to (a) confidentiality or indemnity, (b) Sections 4, 5, 6, 10, 13, 15, and 16, and (c) restrictions on use of any GM Software or Documentation in Your possession shall survive termination of this Agreement.
+
+15. NO WARRANTY BY GM AND LIMITATION OF LIABILITY
+
+15.1 GM MAKES NO REPRESENTATIONS, CONDITIONS OR WARRANTIES IN RESPECT OF THE GM SOFTWARE, THE DOCUMENTATION, END USER DATA, VEHICLE DATA OR ANY OTHER INFORMATION OR MATERIAL THAT GM OR ANY GM REPRESENTATIVES MAKES AVAILABLE TO YOU. THE GM SOFTWARE, DOCUMENTATION, END USER DATA, VEHICLE DATA AND ANY OTHER INFORMATION AND MATERIALS THAT GM MAKES AVAILABLE TO YOU IS PROVIDED “AS IS” AND “AS AVAILABLE” INCLUDING WITH ALL FAULTS AND ERRORS AS MAY OCCUR THEREIN. GM, ON BEHALF OF ITSELF AND ALL GM REPRESENTATIVES, EXPLICITLY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE IN RESPECT OF THE SERVICES, THE SOFTWARE OR THE HARDWARE, NON-INFRINGEMENT AND ACCURACY.
+
+15.2 GM DOES NOT PROVIDE ANY WARRANTIES REGARDING THE AVAILABILITY, PERFORMANCE OR OPERATION OF THE GM SOFTWARE, THE APPSHOP OR ANY OF GM’S PERFORMANCE OR PROCEDURES IN CONNECTION WITH THE APPSHOP OR THIS AGREEMENT. GM DOES NOT PROVIDE ANY WARRANTY AS TO THE AVAILABILITY OF THE APPSHOP OR THAT THE APPSHOP WILL OPERATE WITHOUT INTERRUPTION OR ERROR FREE. GM DOS NOT WARRANT THAT THE APPSHOP WILL CONTINUE IN EXISTENCE FOR ANY PERIOD OF TIME AND DOES NOT WARRANT THAT FUTURE OPERATION OF THE APPSHOP WILL BE COMPATIBLE WITH CURRENT OPERATION OR APPLICATIONS.
+
+15.3 GM DOES NOT WARRANT THAT THE GM SOFTWARE WILL OPERATE PROPERLY ON YOUR EQUIPMENT AND YOU AND ONLY YOU WILL BE RESPONSIBLE FOR ALL REPAIRS TO YOUR EQUIPMENT AND ANY OTHER LOSSES ACTUALLY OR ALLEGEDLY CAUSED BY THE GM SOFTWARE.
+
+15.4 GM DOES NOT PROVIDE ANY GUARANTEE, CONDITION OR WARRANTY OF THE ACCURACY OF ANY DATA MADE AVAILABLE TO ANY APPLICATION THAT YOU PROVIDE, WHETHER THE DATA IS LOCATION DATA OR ANY OTHER DATA AVAILABLE TO YOUR APPLICATION.
+
+15.5 SOME JURISDICTIONS LIMIT OR DO NOT ALLOW THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES, SO SOME OF THE ABOVE DISCLAIMERS MAY NOT APPLY TO THE EXTENT SUCH JURISDICTION’S LAW IS APPLICABLE TO THIS AGREEMENT, IN WHICH CASE GM’S WARRANTIES SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.
+
+15.6 TO THE EXTENT ALLOWED BY LAW, GM WILL NOT BE LIABLE IN ANY WAY IN CONNECTION WITH THIS AGREEMENT, YOUR APPLICATION OR THE APPSHOP FOR ANY INDIRECT, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OR AMOUNTS FOR LOSS OF INCOME, PROFITS OR SAVINGS ARISING OUT OF OR RELATED TO THIS AGREEMENT, YOUR APPLICATION OR THE APPSHOP. THESE LIMITS AND EXCLUSIONS APPLY EVEN IF GM KNEW OR SHOULD HAVE KNOWN ABOUT THE POSSIBILITY OF THE DAMAGES AND WHETHER ARISING BASED ON NEGLIGENCE, TORT OR BREACH OF CONTRACT. TO THE EXTENT THAT ANY COURT FINDS GM LIABLE FOR ANY CLAIM IN CONNECTION WITH THIS AGREEMENT, YOUR APPLICATION OR THE APPSHOP, AND TO THE EXTENT ALLOWED BY LAW, YOU AGREE THAT GM SHALL ONLY BE LIABLE FOR DIRECT DAMAGES AND THE MAXIMUM DAMAGES FOR ALL SUCH CLAIMS IN THE AGGREGATE SHALL BE NO GREATER THAN $100.00.
+
+16. General
+
+16.1 Consent to Collection and Use of Data You agree that GM may collect and use information related to You and Your Application including, but not limited to, Your contact information, technical information about Your Application, including usage information and statistics and any unique identifiers associated with Your Application, and information collected from users of Your Application. The information that GM collects about You may be stored on servers in the United States, a jurisdiction that may not provide a level of protection equivalent to that in Your home jurisdiction. GM may use this information to facilitate the provision of software updates and other services to You, to verify compliance with the terms of this Agreement, and to improve GM products or to provide services or technologies. To accomplish some of these uses, GM may share this information among GM Representatives. GM is under no obligation to provide You with any data or information relating to Your Application that GM collects or processes, including any data collected from users of Your Application. Because GM provides service through wired and wireless networks, GM can’t promise that communications with end users, including downloads of Your Application, won’t be intercepted by others. You agree that GM won’t be liable for any damages for any loss, including loss of privacy or piracy, occurring in communication over such networks.
+
+16.2 Assignment You shall not assign this Agreement (or any portion thereof) without GM’s prior written consent and any attempted assignment without GM's prior written consent shall be null and void. Upon notice to You, GM may assign this Agreement.
+
+16.3 Relationship You agree that GM and You intend to create an independent contractor relationship and nothing contained in this Agreement shall be construed to make either You or GM partners, joint ventures, principals, agents (except as expressly set forth in this Agreement), mandatory or employees of the other. No officer, director, employee, agent, affiliate or contractor retained by You shall be deemed to be an employee, agent or contractor of GM. Neither Party shall have any right, power or authority, express or implied, to bind the other.
+
+16.4 Audit. GM may, at any time within its sole discretion, audit, and You will cooperate with any such audit of, Your compliance with the terms of this Agreement. For sake of clarity, the right to audit includes, but is not limited to, the right to audit Your compliance, and the compliance of Your Application, with any and all of the following: (a) information security requirements. (c) Application performance security requirements, and (c) any requirements that GM provides to you in the Documentation.
+
+16.5 Notices All notices, requests, consents, approvals and other communications required or permitted by You under this Agreement shall be in writing and shall be deemed given when delivered in hand or five (5) business days after being mailed using a reliable national or international mail service, registered or certified mail, postage prepaid, and addressed as follows: GM In-Vehicle API Website Director, 400 Renaissance Center, MC 482-D39-B24, Detroit, MI 48323. GM may change its address for notification purposes on giving notice to You.
+
+You consent to receive notices by e-mail and agree that any such notices that GM sends to You shall be legally effective. Upon notice to GM, You may change Your e-mail address for notification purposes at any time.
+
+16.6 Severability If any term or provision of this Agreement, or of any document incorporated herein by reference is held by a court of competent jurisdiction to be contrary to law, then the remaining provisions of this Agreement or the application of such provision to persons or circumstances other than those as to which it is invalid or unenforceable shall not be affected thereby, and each such provision of this Agreement shall be valid and enforceable to the extent granted by law and such term or provision shall be deemed to be refined to comply with the applicable law while achieving its original intent as closely as possible. Notwithstanding the foregoing, if any right of GM or any of Your obligations to comply with the AppShop Requirements under this Agreement is deemed contrary to law, then this Agreement shall immediately terminate.
+
+16.7 Waiver No term or condition of this Agreement or of any document referenced herein or incorporated herein by reference shall be deemed waived and no breach shall be deemed excused unless such waiver or consent shall be in writing and signed by the Party claimed to have waived or consented. No consent by any Party to, or waiver of, a breach by the other, whether express or implied, shall constitute a consent to, waiver of, or excuse for any different or subsequent breach.
+
+16.8 References and Headings In this Agreement the article and section headings and the tables of contents are for convenience of reference only and shall not be considered in the interpretation of this Agreement. Any phrase introduced by the words “include,” “including” or “in particular” or any similar words or expression shall be construed as illustrative and shall not be given a restrictive meaning by reason of the fact that they are followed by particular examples intended to be embraced by the general words. The terms “herein,” “hereof” and any similar words or expression shall be construed as referring to this Agreement in its entirety and not to any particular section or subsection except to the extent expressly specified
+
+16.9 Compliance with Laws and Regulations; Export Control You will comply with all applicable laws and regulations applicable to the GM Software, Documentation, and Your Application, including but not limited to all export control laws and regulations of the United States, and applicable to Your use of the GM Software, Documentation, and Your Application, and shall obtain all applicable permits and licenses required for the distribution of Your Application in accordance with this Agreement. You may not use, export, re-export, import, sell or transfer the GM Software, Documentation, or Your Application except as authorized by United States law and any other applicable laws and regulations. In particular, but without limitation, the GM Software, Documentation, and Your Application may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Persons List or Entity List. By using the GM Software and Documentation, You represent and warrant that You are not located in any such country or on any such list. You also agree that You will not use the GM Software, Documentation, or Your Application for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture or production of nuclear, missiles, or chemical or biological weapons. You certify that Your Application is not subject to any license requirements for distribution, export, re-export or use into any countries not subject to U.S. embargo.
+
+16.10 Governing Law This Agreement shall be interpreted in accordance with and governed by the State of Michigan, except in relation to any conflict of law provisions which would require application of another choice of law. You and GM consent to personal jurisdiction and exclusive venue in the state and federal courts of the Eastern District of Michigan for the resolution of any disputes arising out of or related to this Agreement. If You are a public educational institution in a state that requires applicability of one or more laws of Your state, then those laws of Your state shall apply. You agree that, regardless of any statute or law to the contrary, You must file any claim or cause of action arising out of or related to use of the AppShop or this Agreement within one (1) year after such claim or cause of action arose, or You shall be forever barred from filing such claim or cause of action. To the fullest extent permitted by applicable law, You agree that any and all disputes, claims, and causes of action You may have in connection with or related to the AppShop or this Agreement will be resolved individually, without resort to any form of class action. This Agreement shall not be subject to the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.
+
+16.11 Language The parties hereto confirm that it is their wish that this Agreement, as well as all other documents relating hereto, including all notices, have been and shall be drawn up in the English language only. Les parties aux présentes confirment leur volonté que cette convention, de même que tous les documents, y compris tout avis, qui s’y rattachent, soient rédigés en langue anglaise.
+
+16.12 Entire Agreement This Agreement, and further terms and policies that are expressly referenced in this Agreement, are the entire agreement between the parties with respect to its subject matter, and there are no other representations, understandings or agreements between the parties relative to such subject matter. You cannot change this agreement unless GM agrees in writing to the change. GM may modify this Agreement by providing notice to You or by asking You to view and click to accept a new version of this Agreement.
+
+
+
+
+
+Exhibit A Standard End User License (United States Version)
+
+
+This Standard End User License (“License”) applies to all software that you download from the AppShop and any updates, upgrades, modifications, or new versions to that software installed or used or when your computer, mobile device, or GM Connected Device synchronizes with your GM account (“Products”) or any Products pre-installed in Your GM Connected Device. A “GM Connected Device” is a device produced by General Motors Holdings LLC (“GM”), for GM, or as authorized by GM that is capable of receiving Products. “Your GM Connected Device” is a GM Connected Device that you own, lease, have access to in a vehicle that you use. If the Product being downloaded is provided by GM, then references to “Provider” in this license means GM. If the Product being downloaded is provided by a third party, then references to “Provider” in this License means the third party identified to you at the time of download. If that third party provides terms that apply to your use of its Product, then those terms will apply to your use of that Product in addition to the terms of this License, and this License will govern to the extent there are any conflicts. If you do not agree to this License, you must uninstall and not use the Products.
+
+1. License. Provider is the owner or licensor of all right, title and interest in and to the Product, including without limitation any content, graphics, audiovisual files, processes, and code, along with all intellectual property rights in the Product. Subject to your compliance with this License, Provider grants you a limited, personal, noncommercial, non-transferable, nonsublicensable, revocable, non-exclusive license to install and use the Product in object code for its intended purpose on Your GM Connected Device, for the Term (as defined in Section 6 below) of the License. You agree and consent to install and use the Product pursuant to this License. The Product is licensed to you but not sold to you.
+
+2. Provider Updates, Modifications and Deletions. From time to time, Provider may remotely update, upgrade, modify, or delete the Product or its services for certain reasons, including, without limitation, to increase functionality, to improve stability, to address safety or security concerns, or any other condition that would adversely affect the operation of Your GM Connected Device. You agree that Provider may at any time automatically update, upgrade, modify, or delete the Product or its services. You also agree that Provider may elect to cease support of the Product or provision of its services that the Product accesses. The Product may be removed automatically from Your GM Connected Device during synchronization with your account. If the Product is updated, upgraded or modified, whether to enhance or correct features or functionality, then this License shall apply to the updates, upgrades and modifications unless separate terms are provided with the update, upgrade or modification. You understand and agree that Provider has no obligation to provide any customer support for the Product and the use and operation thereof is your own responsibility.
+
+3. Effect of Products on GM Connected Devices. You understand that the download, operation or use of Product(s) may: (i) have an unintended or adverse effect on the GM Connected Device, any system or software operating in or with the GM Connected Device, or one or more other Products,(ii) result in a modification or change to the GM Connected Device, any system or software operating in or with the GM Connected Device, one or more other Products, or the functionality of any one or more of the foregoing; or (iii) render all or a portion of the GM Connected Device, any system or software operating in or with the GM Connected Device, or one or more other Products inaccessible or unusable. You understand and agree that the download, operation and use of Products is at your own risk and is your own responsibility, and that Provider has no obligation to provide customer support for the Product or with regard to any effect it may have on the GM Connected Device, any system or software operating in or with the GM Connected Device, or one or more other Products.
+
+4. No reverse engineering; re-distribution or security circumvention. You agree not to reverse engineer, disassemble, use in a compilation, decompile, repurpose, distribute, resell or modify the Product. You may only copy the Product for purposes of transferring the Product to Your GM Connected Device and operating the Product on Your GM Connected Device. You may not re-distribute the Product to other people that do not use Your GM Connected Device or vehicle. You agree to abide by and will not circumvent any security means or access control technology included in or with the Product.
+
+5. Open Source. If the Product includes any Open Source Software, then your rights and responsibilities with respect to the Open Source Software shall be governed according to the terms of the applicable Open Source License. “Open Source Software” means software made available to others under the terms of an Open Source License; “Open Source License” means a software license that includes, but is not limited to, terms that: (a) permit distribution/redistribution of the software, including free of charge and for sale, by others without royalty or fee and allows for such distribution/redistribution to include source code and compiled code; (b) permits modifications, compilations, and derived works be created from the software and be distributed under the same terms as the original software; or (c) attach to the software and applies to all persons, entities, groups, organizations and institutions (the “Recipients”) to whom the software is distributed or who redistribute the software without the need for the Recipients to execute or otherwise acquire an additional license.
+
+6. Term. This License shall continue until terminated by you or Provider or you cease use of the Product (the “Term”). You may terminate this License at any time by uninstalling the Product. This License shall terminate automatically at any time upon breach by you of any of the terms of this License and in such event you will cease all use of the Product.
+
+7. Service terms and Web Site Terms apply. If you use the Product to access or use any service, then you agree to abide by the applicable terms of the service and warrant that you will do so. If you use the Product to access or use any web site, then you agree to abide by the applicable terms of the web site and warrant that you shall do so.
+
+8. Data Collection; Use and Back-up. To the extent GM is the Provider, GM may collect and store information about you and your vehicle through your use of the GM Connected Device or GM Products. Any information collected by GM is subject to and governed by the Privacy Statement included and posted with a Product.
+
+When you use third party software, including from a Provider other than GM, third parties may collect information about you, as well. Any information collected by third parties from the Product they license to you is subject to the applicable third party’s privacy policy. We recommend that you check the third party Product's privacy policy prior to using any third party’s Product. By virtue of the third party software operating through the GM Connected Device or GM Products, the software may provide GM with information about you or your vehicle through the Software.
+
+You have sole responsibility for backing up or archiving any data you use with the Product to the extent you have the right to do so. Provider does not have any responsibility for maintaining, archiving, or providing any data you use with the Product and shall have no liability for any loss of access to or use of such data.
+
+9. Content provided by Provider. The Product may make available to you content that is the property of Provider or of others that give Provider permission to provide it to you. This content is provided only for use through the Product on the GM Connected Device and no right is provided to you to, and you agree not to, copy, distribute, modify, perform, broadcast, display, transmit, reuse, re-post, use or claim any right in the content provided by Provider. You also agree that you will not use content provided by the Provider or through the Product to violate any law or harass any person, group or business. If the Product links you to any third party website or service, no right is provided to you to, and you agree not to, copy, distribute, modify, perform, broadcast, display, transmit, reuse, repost, use or claim any right in the content provided by the third party website or service unless you have legal permission from the third party. You also agree that you will not use content from the third party website or service to violate any law or harass any person, group or business.
+
+10. Your Transmissions and Use. You agree not to use the Product to transmit or send any information or data that you do not have the right to transmit or send. You also agree that you will not use the Product to transmit or send any information or data for any unlawful purpose or to harass any person, group, or business.
+
+11. DATA DISCLAIMER. The Product may use various types of data to perform functions for you. YOU ACKNOWLEDGE THAT THE DATA PROVIDED MAY NOT BE ACCURATE AND YOU USE THE DATA AT YOUR OWN SOLE RISK. DATA THAT MAY NOT BE RELIED ON INCLUDES, BUT IS NOT LIMITED TO, THE FOLLOWING: POSITION (I.E., LOCATION) DATA OBTAINED FROM THE VEHICLE OR OTHERWISE; DATA OBTAINED FROM A WEBSITE OR THIRD PARTY SERVICE PROVIDER; AND DATA OBTAINED FROM IN-VEHICLE SYSTEMS.
+
+12. Content provided by third party sites. You understand that in using the Product, you may encounter material that you may find offensive, vulgar, or obscene. You also understand that if you use the Product to access services or websites, you may not be able to control search results that may return links or “hits” that you may find offensive, vulgar, or obscene. You use the Product at your own risk and neither Provider nor GM shall have any liability for content that you or others may find offensive or otherwise objectionable. GM is not responsible for examining or evaluating the content or accuracy, does not warrant or endorse and will have no liability for any third party materials, services, or websites.
+
+13. Obey all laws related to operation of motor vehicle. You acknowledge that the Product (unless installed by the vehicle manufacturer) is not part of your vehicle delivered to you when you purchase or lease your vehicle. If you believe that your Product is not operating properly, you should, if applicable, use the features of your account to remove the Product from Your GM Connected Device. You agree and warrant that you will obey all laws, traffic rules and regulations governing the operation of your vehicle and you will not use the Product in any manner that violates such laws or regulations.
+
+14. No guarantee of operation of features / networks. For services provided through networks, you are responsible for obtaining a contract with a service provider for network connectivity at your own sole cost. For services provided through networks, Provider cannot promise that your communications will not be intercepted by others and cannot promise that connections to websites and services through networks will be available to you, uninterrupted, or error free. You agree that both Provider and GM will not be liable for any damages for any loss of privacy occurring in communication over such networks or for any loss of connectivity or loss, error, or failure of other functionality provided through networks.
+
+15. Not operational during all vehicle modes. The Product may provide features and functionality that are not available during operation of your vehicle.
+
+16. NO WARRANTY. PROVIDER MAKES NO REPRESENTATIONS, WARRANTIES OR CONDITIONS IN RESPECT OF THE PRODUCT OR ANY SERVICE OR INFORMATION THAT PROVIDER OR THE PRODUCT MAKES AVAILABLE TO YOU. THE PRODUCT, ANY SERVICE AND ANY INFORMATION THAT PROVIDER OR THE PRODUCT MAKES AVAILABLE TO YOU ARE PROVIDED “AS IS” AND “AS AVAILABLE” INCLUDING WITH ALL FAULTS AND ERRORS AS MAY OCCUR THEREIN. PROVIDER, ON BEHALF OF ITSELF AND ALL PERSONS AND PARTIES ACTING BY, THROUGH OR FOR PROVIDER, AND FOR THE BENEFIT OF GM, EXPLICITLY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS, IMPLIED, OR COLLATERAL, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE IN RESPECT OF THE PRODUCT OR ANY SERVICES PROVIDED THROUGH THE PRODUCT, ACCURACY, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY PROVIDER OR ITS AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY.
+
+PROVIDER DOES NOT WARRANT THAT THE PRODUCT WILL CONTINUE TO OPERATE OR REMAIN AVAILABLE FOR ANY PERIOD OF TIME AND DOES NOT WARRANT THAT FUTURE OPERATION WILL BE COMPATIBLE WITH CURRENT OPERATION OR APPLICATIONS. PROVIDER DOES NOT WARRANT THAT USE OF THE PRODUCT WILL BE UNINTERRUPTED OR ERROR-FREE OR THAT DEFECTS IN THE PRODUCT WILL BE CORRECTED.
+
+PROVIDER DOES NOT PROVIDE ANY GUARANTEE, CONDITION, OR WARRANTY THAT THE PRODUCT WILL OPERATE PROPERLY ON YOUR GM CONNECTED DEVICE, AND YOU AND ONLY YOU WILL BE RESPONSIBLE FOR ALL REPAIRS TO YOUR EQUIPMENT AND ANY OTHER LOSSES ACTUALLY OR ALLEGEDLY CAUSED BY THE PRODUCT. PROVIDER DOES NOT PROVIDE ANY GUARANTEE, CONDITION, OR WARRANTY OF THE ACCURACY OF ANY DATA MADE AVAILABLE TO THE PRODUCT OR YOU THROUGH THE PRODUCT, WHETHER THE DATA IS LOCATION DATA OR ANY OTHER DATA AVAILABLE TO OR THROUGH THE PRODUCT.
+
+IF THE PROVIDER IS A THIRD PARTY, THEN YOU UNDERSTAND THAT THE PRODUCT IS PROVIDED BY THE THIRD PARTY PROVIDER AND THAT GM DOES NOT PROVIDE ANY WARRANTY WHATSOEVER (WHETHER MENTIONED IN THIS SECTION OR OTHERWISE) RELATED TO THE PRODUCT OR ANY SERVICE OR INFORMATION PROVIDED BY OR THROUGH SUCH THIRD PARTY PROVIDER PRODUCT.
+
+SOME JURISDICTIONS LIMIT OR DO NOT ALLOW THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES, SO SOME OF THE ABOVE DISCLAIMERS MAY NOT APPLY TO THE EXTENT SUCH JURISDICTION’S LAW IS APPLICABLE, IN WHICH CASE GM’S WARRANTIES SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.
+
+17. EXCLUSION OF DAMAGES AND LIMITATION OF LIABILITY. TO THE EXTENT PERMITTED BY LAW AND UNLESS PROHIBITED BY LAW, PROVIDER AND GM AND THEIR RESPECTIVE AFFILIATES AND THE EMPLOYEES, OFFICERS, DIRECTORS, AND AGENTS THEREOF (“PROVIDER PARTIES”) SHALL NOT BE LIABLE IN ANY WAY IN CONNECTION WITH THIS LICENSE, THE PRODUCT, OR ANY SERVICES OR INFORMATION THE PRODUCT ACCESSES OR PROVIDES FOR ANY INDIRECT, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES OR AMOUNTS FOR LOSS OF INCOME, PROFITS, OR SAVINGS ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE PRODUCT. THESE LIMITS AND EXCLUSIONS APPLY EVEN IF PROVIDER, GM OR ANY PROVIDER PARTY KNEW OR SHOULD HAVE KNOWN ABOUT THE POSSIBILITY OF THE DAMAGES AND WHETHER ARISING BASED ON NEGLIGENCE, TORT, OR BREACH OF CONTRACT. TO THE EXTENT THAT ANY COURT FINDS PROVIDER, GM, OR ANY PROVIDER PARTY LIABLE FOR ANY CLAIM IN CONNECTION WITH THIS LICENSE, THE PRODUCT OR ANY SERVICES OR INFORMATION THE PRODUCT ACCESSES OR PROVIDES, AND TO THE EXTENT ALLOWED BY LAW, YOU AGREE THAT PROVIDER, GM, AND THE PROVIDER PARTIES SHALL COLLECTIVELY ONLY BE LIABLE FOR DIRECT DAMAGES AND THE MAXIMUM DAMAGES FOR ALL SUCH CLAIMS IN THE AGGREGATE SHALL BE NO GREATER THAN $100.00.
+
+FURTHER, THIRD PARTY PROVIDERS ARE INDEPENDENT CONTRACTORS AND NOT AGENTS OR EMPLOYEES OF GM. TO THE EXTENT PERMITTED BY LAW, GM DOES NOT ASSUME LIABILITY FOR ANY INJURY, DAMAGE, DEATH, LOSS, ACCIDENT, OR DELAY DUE TO AN ACT OR OMISSION OF A THIRD PARTY PROVIDER.
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, GM SHALL NOT BE RESPONSIBLE FOR ANY THIRD PARTY PROVIDER'S BREACH OF ANY WARRANTY INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, NON-INFRINGEMENT, OR ACCURACY, NOR SHALL GM BE RESPONSIBLE FOR ANY OTHER BREACH OR WRONGDOING OF A THIRD PARTY PROVIDER (INCLUDING ANY LIABILITY IN TORT), AS TO ANY PRODUCTS OR SERVICES OR INFORMATION AVAILABLE THROUGH THE APPSHOP. GM SHALL NOT BE RESPONSIBLE FOR ANY THIRD PARTY PROVIDER’S FAILURE TO COMPLY WITH THIS AGREEMENT NOR FOR ANY THIRD PARTY PROVIDER’S FAILURE TO COMPLY WITH APPLICABLE FEDERAL, STATE, PROVINCIAL, AND LOCAL LAW.
+
+18. Indemnification. In consideration of Provider’s provision of the Product to you without a fee and the rights granted to you in the License, you agree that you shall indemnify and hold Provider harmless from any and all liabilities, damages, costs, and expense (including legal fees) that it incurs as a result of any third party claim to the extent arising from your breach of this License or any other negligent or intentional misconduct.
+
+19. Disputes; Binding Individual Arbitration; Class Action and Jury Trial Waiver.
+
+(a) Our customer service department is available to address any concerns you may have regarding the AppShop or the Products. You may call us at: 1-855-440-0400, email us at infotainment@gmexpert.com or contact us by regular mail at the addresses listed at the end of this Agreement. Most matters are quickly resolved in this manner to our customer’s satisfaction. Any matter we are unable to resolve and all disputes or claims arising out of or relating to this Agreement, including its formation, enforceability, performance, or breach (each, a "License Claim"), with the exception of the matters described in Section 19(c) below, shall be finally settled by binding arbitration administered by the American Arbitration Association (the “AAA”) in accordance with the provisions of its Commercial Arbitration Rules and the supplementary procedures for customer-related disputes, excluding any rules or procedures governing or permitting class actions. The arbitrator, and not any federal, state, or local court or agency, shall have exclusive authority to resolve all License Claims. The arbitrator shall be empowered to grant whatever relief would be available in a court under law or in equity. The arbitrator’s award shall be binding on the parties and may be entered as a judgment in any court of competent jurisdiction. The parties expressly waive the right to sue in court and have a jury trial. They further understand that, in some instances, the costs of arbitration could exceed the costs of litigation and the right to discovery may be more limited in arbitration than in court. Any arbitration will be conducted by the parties in their individual capacities only and not as a class action or other representative action, and the parties waive their right to file a class action or seek relief on a class basis. If any court or arbitrator determines that the class action waiver set forth in the preceding sentence is void or unenforceable for any reason or that an arbitration can proceed on a class basis, then the arbitration provision set forth in this Section 19 shall be null and void in its entirety and the parties shall be deemed to have not agreed to arbitrate License Claims.
+
+(b) The rules governing the arbitration may be accessed at www.adr.org or by calling the AAA at +1-800-778-7879. To the extent the initial filing fee for the arbitration exceeds the initial filing fee for a lawsuit, we will pay the difference in fees.
+
+(c) Section 19(a) does not apply to any License Claim (i) in which a party is attempting to protect its intellectual property rights (such as its patent, copyright, trademark, trade secret, or moral rights, but not including its privacy or publicity rights), or (ii) that may be brought in small-claims court.
+
+20. Applicable law and time limit for filing. To the extent permitted by law and unless prohibited by law, this Agreement shall be interpreted in accordance with and governed by the laws of the State of Michigan, except in relation to any conflict of law provisions thereof which would require application of another choice of law. If you are a public educational institution in the United States within state that requires applicability of one or more laws of your state, then those laws of your state shall apply. To the extent permitted by law and unless prohibited by law, You agree that you must file any arbitration request, claim, or cause of action arising out of or related to the Product or this License within one (1) year after the events giving rise to the arbitration request, claim, or cause of action, or you shall be forever barred from filing such request, claim, or cause of action.This Agreement shall not be subject to the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.
+
+21. Export compliance. You will comply worldwide with all laws and regulations applicable to the Product. You may not use, export, re-export, import, sell, or transfer the Product except as authorized by United States law and any other applicable laws and regulations. In particular, but without limitation, the Product may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Persons List or Entity List. By using the Product, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use the Product for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missiles, or chemical or biological weapons.
+
+22. Federal Acquisitions. If you are acting on behalf of the U.S. federal government or under any activity directed or controlled by the federal government, then the Product shall be considered commercial computer software under 48 C.F.R. Chapter 2.
+
+23. Notices. Provider may provide you with notices regarding the Product, including changes to this License, by email to your mail address associated with your GM account if available, by regular mail, or by postings on the AppShop.
+
+24. Miscellaneous. You may not assign this License without permission of Provider. You, Provider and GM are independent contracting parties. If the Product is provided to you by a third party Provider, you agree that GM and its subsidiaries are third party beneficiaries of the License and thus GM or its subsidiaries can enforce this License against you even if it is not the Provider of the Product provided that if the doctrine of third-party beneficiaries is found to not apply for any reason, the parties acknowledge and agree that while GM is not a party to this License and has no obligations under this License, the Provider is a trustee of GM for the limited purpose of holding in trust for GM the covenants in favour of GM. Accordingly, the parties agree that GM may enforce such rights and agreements in its own right (without being required to add the Provider as a party to any proceedings for such enforcement). If any term of this Agreement is invalid or unenforceable, then it shall be severed from this Agreement and the remainder of the agreement shall remain in full force and effect. If Section 19 is held to be invalid or unenforceable, then for any License Claims the parties consent to personal jurisdiction and exclusive venue in the state and federal courts of the Eastern District of Michigan. No condition of this License shall be deemed waived unless waived in writing by the party claimed to have waived. This License is the entire agreement between the parties with respect to its subject matter, and there are no other representations, understandings or agreements between the parties relative to such subject matter. You cannot change this License unless Provider agrees in writing to the change. Provider may modify this License by providing notice to you, and if you do not agree with any modification, then you must stop using the Product. Your continued use of the Product will be deemed acceptance of such modifications.</license>
+    <localPackage path="system-images;android-34;default;x86_64" obsolete="false">
+        <type-details xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns15:sysImgDetailsType">
+            <api-level>34</api-level>
+            <tag>
+                <id>android-automotive</id>
+                <display>Custom_AAOS_15</display>
+            </tag>
+            <vendor>
+                <id>gm</id>
+                <display>GM</display>
+            </vendor>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>1</major>
+        </revision>
+        <display-name>Custom_AAOS_15</display-name>
+        <uses-license ref="final-sdk-license"/>
+        <dependencies>
+            <dependency path="emulator">
+                <min-revision>
+                    <major>30</major>
+                    <minor>0</minor>
+                    <micro>0</micro>
+                </min-revision>
+            </dependency>
+        </dependencies>
+    </localPackage>
+</ns3:repository>
